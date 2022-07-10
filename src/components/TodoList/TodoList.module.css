@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 2fr 10fr 2fr;
+    grid-gap: 10px;
+    background: url("https://images.unsplash.com/photo-1630578877871-1a2f9d372fd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    margin: 200px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+
+}
+
+.rubric {
+    color: var(--coffee-color);
+    font: italic 1.2em "Fira Sans", serif;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.content {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    height: 250px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.4);
+    overflow: scroll;
+}
+
+.inputContent {
+    font: italic 1.2em "Fira Sans", serif;
+    color: var(--coffee-color);
+    padding: 10px 20px;
+}
+
+.dots {
+    list-style-type: none;
+}
+
+.btnX {
+    border: var(--coffee-color);
+    border-radius: 50%;
+    height: 15px;
+    margin: 3px;
+    width: 15px;
+    font-weight: 600;
+    color: var(--coffee-color);
+    background-color: #EDDFB3;
+    cursor: pointer;
+}
+
+.customCheckbox {
+    cursor: pointer;
+}

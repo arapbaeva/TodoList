@@ -1,0 +1,21 @@
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+
+}
+
+.selectButton {
+    font: italic 1.2em "Fira Sans", serif;
+    font-weight: 600;
+    margin-right: 2px;
+    height: 30px;
+    width: 80px;
+    background-color: #EDDFB3;
+    font-size: 16px;
+    color: var(--coffee-color);
+    opacity: 0.9;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
